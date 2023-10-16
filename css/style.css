@@ -1,0 +1,75 @@
+h3 {
+    text-align: center;
+}
+#owners {
+    display: block;
+    margin: 2em auto;
+}
+table {
+    margin: 2em auto;
+    border: #212529 solid 2px !important;
+    font-size: 80%;
+}
+table thead th{
+    text-align: center;
+    padding: 1em;
+    border: #212529 solid 1px !important;
+}
+table tbody td{
+    padding: 0.3em 1em;
+    border: #212529 solid 1px !important;
+    /*font-size: 60%;*/
+}
+#server_data table {
+    width: 100%;
+}
+.btn {
+    margin: 2px;
+}
+.hidden {
+    display: none;
+}
+.error{
+    border: red solid 3px !important;
+}
+input.eat{
+    width:3em;
+    box-shadow: #999 3px 3px 3px;
+    margin: 0 5px;
+}
+table td.owner {
+    background-color: #f3f3f3;
+    cursor: pointer;
+}
+.btn-primary {
+    background-color: #4a86e8;
+}
+.btn-info {
+    background-color: #a4c2f4;
+}
+.pagination, .pagination li {
+    display: inline-block;
+}
+
+.pagination li {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    margin: 0 4px;
+    border-radius: 5px;
+    background-color: #ddd;
+    cursor: pointer;
+}
+.pagination a {
+    color: black;
+    float: left;
+    text-decoration: none;
+}
+.pagination li.active {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    cursor: default;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
